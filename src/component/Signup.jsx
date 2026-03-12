@@ -1,6 +1,8 @@
 import { User, Lock } from "lucide-react";
 import logo from "./utils/photos/logo.svg";
+import { useNavigate } from "react-router-dom";
 export default function SignIn() {
+  const navigate = useNavigate();
   return (
     <div className="h bg-white flex justify-center items-center">
       
@@ -71,7 +73,7 @@ export default function SignIn() {
         </div>
 
         {/* Sign In Button */}
-        <button className="w-full mt-8 bg-[#6E1A63] text-white py-3 rounded-lg font-semibold hover:bg-purple-900">
+        <button onClick={() => navigate("/home")} className="w-full mt-8 bg-[#6E1A63] text-white py-3 rounded-lg font-semibold hover:bg-purple-900">
           Sign In
         </button>
 
