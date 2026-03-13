@@ -21,7 +21,7 @@ function Usage() {
             onClick={() => setMode("stock")}
             className={`flex-1 py-2 rounded-lg text-sm font-medium 
             ${mode === "stock"
-                ? "bg-purple-700 text-white"
+                ? "bg-[#81256C] text-white"
                 : "border text-gray-600"
             }`}
           >
@@ -86,13 +86,13 @@ function Usage() {
       </div>
 
       {/* Record Button */}
-      <button className="w-full border-2 border-purple-700 text-purple-700 py-2 rounded-lg font-medium bg-white">
+      <button className="w-full border-2 border-[#81256C] text-[#81256C] py-2 rounded-lg font-medium bg-white">
         ✔ Record Usage
       </button>
 
       {/* Recent Usage */}
       <div>
-        <h3 className="text-sm font-semibold text-purple-800 mb-2">
+        <h3 className="text-sm font-semibold text-[#81256C] mb-2">
           Recent Usage
         </h3>
 
@@ -100,7 +100,7 @@ function Usage() {
         <div className="bg-white rounded-xl shadow p-3 mb-2">
           <div className="flex justify-between text-sm font-medium">
             <p>Autobase Plus Black</p>
-            <p className="text-purple-700">0.5L</p>
+            <p className="text-[#81256C]">0.5L</p>
           </div>
 
           <span className="text-xs bg-yellow-200 text-yellow-800 px-2 py-1 rounded mt-1 inline-block">
@@ -117,7 +117,7 @@ function Usage() {
         <div className="bg-white rounded-xl shadow p-3">
           <div className="flex justify-between text-sm font-medium">
             <p>Thinner NC</p>
-            <p className="text-purple-700">2L</p>
+            <p className="text-[#81256C]">2L</p>
           </div>
 
           <span className="text-xs bg-blue-200 text-blue-800 px-2 py-1 rounded mt-1 inline-block">

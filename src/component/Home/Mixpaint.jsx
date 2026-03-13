@@ -6,7 +6,7 @@ function Mixpaint() {
      <div className="bg-white rounded-2xl shadow-lg p-4 space-y-3">
           {/* Meter Name */}
           <div>
-            <label className="text-sm font-medium text-purple-800">Meter Name:</label>
+            <label className="text-sm font-medium text-[#81256C]">Meter Name:</label>
             <input
               type="text"
               placeholder="Enter customer name"
@@ -16,7 +16,7 @@ function Mixpaint() {
 
           {/* Vehicle */}
           <div>
-            <label className="text-sm font-medium text-purple-800">
+            <label className="text-sm font-medium text-[#81256C]">
               Vehicle Make & Model (Optional)
             </label>
             <input
@@ -28,7 +28,7 @@ function Mixpaint() {
 
           {/* Colour Code */}
           <div>
-            <label className="text-sm font-medium text-purple-800">
+            <label className="text-sm font-medium text-[#81256C]">
               Colour Code / Colour Name
             </label>
             <input
@@ -41,8 +41,8 @@ function Mixpaint() {
           {/* Paint Type */}
           <div>
             <div className="flex justify-between text-sm ">
-              <label className="font-medium text-purple-800">Paint Type</label>
-              <span className="text-purple-600 cursor-pointer text-xs">
+              <label className="font-medium text-[#81256C]">Paint Type</label>
+              <span className="text-[#81256C] cursor-pointer text-xs">
                 + Create new
               </span>
             </div>
@@ -55,8 +55,8 @@ function Mixpaint() {
           {/* Brand */}
           <div>
             <div className="flex justify-between text-sm">
-              <label className="font-medium text-purple-800">Brand</label>
-              <span className="text-purple-600 cursor-pointer text-xs">
+              <label className="font-medium text-[#81256C]">Brand</label>
+              <span className="text-[#81256C] cursor-pointer text-xs">
                 + Create new
               </span>
             </div>
@@ -68,7 +68,7 @@ function Mixpaint() {
 
           {/* Quantity */}
           <div>
-            <label className="text-sm font-medium text-purple-800">Quantity Mixed</label>
+            <label className="text-sm font-medium text-[#81256C]">Quantity Mixed</label>
             <input
               type="text"
               placeholder="Enter Quantity Mixed"
@@ -78,7 +78,7 @@ function Mixpaint() {
 
           {/* Remarks */}
           <div>
-            <label className="text-sm font-medium text-purple-800">Remarks (if any):</label>
+            <label className="text-sm font-medium text-[#81256C]">Remarks (if any):</label>
             <textarea
               rows="3"
               className="w-full mt-1 border bg-gray-100 rounded-lg px-3 py-2 text-sm"
@@ -86,7 +86,7 @@ function Mixpaint() {
           </div>
 
           {/* Button */}
-          <button className="w-full bg-purple-700 text-white py-2 rounded-lg font-medium mt-2">
+          <button className="w-full bg-[#81256C] text-white py-2 rounded-lg font-medium mt-2">
             + Create Mix
           </button>
         </div>

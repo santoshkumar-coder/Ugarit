@@ -7,7 +7,7 @@ export default function SignIn() {
     <div className="h bg-white flex justify-center items-center">
       
       {/* Mobile Container */}
-      <div className="w-full sm:w-[370px] min-h-screen bg-gradient-to-b from-purple-400 to-yellow-600 px-4 py-8">
+      <div className="w-full sm:w-[370px] min-h-screen bg-gradient-to-b from-[#8A6CAB] to-[#CCA776] px-4 py-8">
 
         {/* Logo */}
         <div className="text-center mt-2">
